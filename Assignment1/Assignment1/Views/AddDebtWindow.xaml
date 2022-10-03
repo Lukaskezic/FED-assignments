@@ -7,13 +7,13 @@
         xmlns:local="clr-namespace:Assignment1.ViewModels"
         mc:Ignorable="d"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Title="AddDebtWindow" Height="300" Width="300">
+        Title="AddDebtWindow" Height="250" Width="300">
     <Grid>
-        <TextBox VerticalAlignment="Top" Margin="9" />
-        <TextBox VerticalAlignment="Top" Margin="9,39"/>
-        <TextBox VerticalAlignment="Top" Margin="9,69"/>
-
-        <Button Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,100,9,9" Width="100" Height="50"/>
-        <Button Content="Close" Command="{Binding CloseAppCommand}" CommandParameter="{Binding ElementName=AddDebtWindow}" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="9,100,20,9" Width="100" Height="50"/>
+        <Label HorizontalAlignment="Center" VerticalAlignment="Top" Margin="9">Debtors</Label>
+        <TextBox VerticalAlignment="Top" Margin="9,35" />
+        <Label HorizontalAlignment="Center" VerticalAlignment="Top" Margin="53">Initial Value</Label>
+        <TextBox VerticalAlignment="Top" Margin="9,79" />
+        <Button Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,130,9,9" Width="100" Height="50"/>
+        <Button Content="Close" Command="{Binding CloseAppCommand}" CommandParameter="{Binding ElementName=AddDebtWindow}" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="9,130,20,9" Width="100" Height="50"/>
     </Grid>
 </Window>

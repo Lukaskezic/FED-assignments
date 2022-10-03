@@ -1,5 +1,5 @@
 ﻿Assignment1
-
+1.0.0.0
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Lukas\OneDrive\Dokumenter\GitHub\FED-assignments\Assignment1\Assignment1\App.xaml
 3-1288589286
 
-8746977093
+10-1540978755
 1972084163325
 Views\AddDebtWindow.xaml;Views\MainWindow.xaml;Views\ShowDebitsWindow.xaml;
 
-False
+True
 
