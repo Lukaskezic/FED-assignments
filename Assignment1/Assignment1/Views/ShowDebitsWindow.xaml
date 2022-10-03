@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Assignment1.Views"
         mc:Ignorable="d"
-        Title="ShowDebitsWindow" Height="450" Width="800">
+        Title="ShowDebitsWindow" Height="450" Width="450">
     <Grid>
-        
+        <ListView Name="lbxShowDebits" Margin="9" Height="300" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250"/>
+        <Button Content="Close" Command="{Binding CloseAppCommand}" CommandParameter="{Binding ElementName=AddDebtWindow}" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,346,340,0" Width="100" Height="50"/>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="329,10,0,0">Value</Label>
+        <TextBox VerticalAlignment="Top" Margin="267,40,9,0" />
+        <Button Content="Add value" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,73,52,0" Width="100" Height="50" Click="Button_Click"/>
     </Grid>
 </Window>
